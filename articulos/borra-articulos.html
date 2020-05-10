@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 4</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <section>
+            <a href="../index.html"><h2>ET3: Actividad 4</h2></a>
+        </section>
+        <nav>
+            <button>
+                <p>Menú</p>
+            </button>
+            <div class="dropdown">
+                <a href="#"><h3>Artículos</h3></a>
+                    <section>
+                        <a href="../articulos/consulta-articulos.php"><h3>Consultar</h3></a>
+                        <a href="../articulos/inserta-articulos.html"><h3>Insertar</h3></a>
+                        <a href="../articulos/actualiza-articulos.html"><h3>Actualizar</h3></a>
+                        <a href="../articulos/borra-articulos.html"><h3>Borrar</h3></a>
+                    </section>
+                <a href="#"><h3>Proveedores</h3></a>
+                    <section>
+                        <a href="../proveedores/consulta-proveedores.php"><h3>Consultar</h3></a>
+                        <a href="../proveedores/inserta-proveedores.html"><h3>Insertar</h3></a>
+                        <a href="../proveedores/actualiza-proveedores.html"><h3>Actualizar</h3></a>
+                        <a href="../proveedores/borra-proveedores.html"><h3>Borrar</h3></a>
+                    </section>
+                <a href="#"><h3>Ventas</h3></a>
+                    <section>
+                        <a href="../ventas/consulta-ventas.php"><h3>Consultar</h3></a>
+                        <a href="../ventas/inserta-ventas.html"><h3>Insertar</h3></a>
+                        <a href="../ventas/actualiza-ventas.html"><h3>Actualizar</h3></a>
+                        <a href="../ventas/borra-ventas.html"><h3>Borrar</h3></a>
+                    </section>
+            </div>
+        </nav>
+    </header>
+    <form action="borrar-articulos.php" method="POST">
+        <h3>Borrar Artículos</h3>
+        <main>
+            <label for="clave">Clave:</label>
+            <input id="clave" name="clave" type="text" placeholder="Inserta la clave" required>
+        </main>
+        <button type="submit" name="borrar">Borrar</button>
+    </form>
+    <footer>
+        <section class="footer-1">
+            UA: Programación IV
+        </section>
+        <section class="footer-2">
+            Etapa: 3
+        </section>
+        <section class="footer-1">
+            Nombre: Héctor Mauricio Flores Martínez (1897759)
+        </section>
+        <section class="footer-2">
+            Fecha: 11/05/2020
+        </section>
+    </footer>
+</body>
+</html>
