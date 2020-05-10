@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 05, 2020 at 08:22 AM
+-- Generation Time: May 10, 2020 at 06:53 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.2
 
@@ -41,7 +41,7 @@ CREATE TABLE `ARTICULOS` (
 --
 
 INSERT INTO `ARTICULOS` (`CLAVE_ART`, `DESC_ART`, `CANTIDAD_ART`, `PRECIO_ART`, `OBS_ART`) VALUES
-(2, 'RotoMartillo', 5, 59, 'Color Plata'),
+(3, 'RotoMartilloMOD', 7, 60, 'Color PlataMOD'),
 (4, 'Tijeras', 10, 59, 'Uso doméstico'),
 (6, 'Desarmador P_MODIFICADO', 9, 59, 'Plano'),
 (7, 'Brocas', 9, 39, 'Grandes'),
@@ -84,7 +84,7 @@ CREATE TABLE `PROVEEDORES` (
 --
 
 INSERT INTO `PROVEEDORES` (`CLAVE_PROV`, `NOMBRE_PROV`, `DIRECCION_PROV`, `TELEFONO_PROV`, `EMAIL_PROV`, `TIPO_PROV`, `CLAVEART_PROV`) VALUES
-(2, 'Abastecedora MTY', 'Monterrey', '8313213513', 'mtyferr@gmail.com', '5', 2),
+(2, 'Abastecedora MTYMOD', 'Guadalupe', '056354345', 'absmtyMODgmail.com', '6', 25),
 (4, 'Roshfrans', 'CDMX', '8004655132', 'roshfrans@proveedores.com', '6', 9),
 (6, 'Walmart', 'Juarez', '86153132', 'walmart@walmart.com', '3', 4),
 (7, 'Soriana', 'Monterrey', '181565316', 'soriana@gmail.com', '5', 1),
@@ -128,7 +128,7 @@ CREATE TABLE `VENTAS` (
 --
 
 INSERT INTO `VENTAS` (`CLAVE_VTA`, `CANTIDAD_VTA`, `PRECIO_VTA`, `TOTAL_VTA`, `NVENTA_VTA`) VALUES
-(2, 30, 30, 30, 30),
+(2, 45, 46, 47, 48),
 (4, 3, 99, 299, 25),
 (6, 4, 40, 160, 6),
 (7, 5, 9, 45, 7),
